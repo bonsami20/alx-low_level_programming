@@ -4,10 +4,7 @@
 * main - causes an infinite loop
 * Return: 0
 */
-/*
-* while () - endless loop produces a continuous output
-* No incrementation of i so i will never reach 10
- *putchar(i) - will always print 0
+
 
 int main(void)
 {
@@ -16,11 +13,13 @@ int main(void)
         printf("Infinite loop incoming :(\n");
 
         i = 0;
-
+	
+        /*
         while (i < 10)
         {
                 putchar(i);
         }
+        */
 
         printf("Infinite loop avoided! \\o/\n");
 
