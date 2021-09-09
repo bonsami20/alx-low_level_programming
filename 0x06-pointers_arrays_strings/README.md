@@ -1,0 +1,1 @@
+THis is a file on more pointers, array and strings.
